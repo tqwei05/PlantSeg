@@ -57,7 +57,6 @@ Segformer |     |   |
 SegNext   |     |   |  
 
 
-## Results
 
 
 
