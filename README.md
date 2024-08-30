@@ -10,23 +10,18 @@ We curate an in-the-wild multimodal plant disease recognition dataset PlantWild 
 
 ### Curation of our dataset
 <div align="center">
-  <img width=800 src="figures/cleaning.png"/>
-</div>
-<div align="center">
-  <img width=800 src="figures/bar.png"/>
+  <img width=800 src="image/workflow7.png"/>
 </div>
 
-### Workflow of the baseline
-<div align="center">
-  <img width=500 src="figures/baseline.png"/>
-</div>
+
+
 
 
 ## Preparation
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/tqwei05/MVPDR.git
-cd MVPDR
+git clone https://github.com/tqwei05/PlantSeg.git
+cd PlantSeg
 ```
 ### 2. Requirements
 ```bash
@@ -38,10 +33,8 @@ conda install pytorch torchvision cudatoolkit
 ```
 
 ### 3. Prepare the data
-Our dataset is accessible through:
-* [Google Drive](https://drive.google.com/file/d/1s7FOoztTHvO03yVfw75pQY_kzZqvAckD/view?usp=drive_link),
-* [Hugging face](https://huggingface.co/datasets/uqtwei2/PlantWild),
-* [UQRDM](https://cloud.rdm.uq.edu.au/index.php/s/5iTzoyby9Xobmq2) (password: plantwildv1).
+Our dataset is accessible through [Zenodo](https://zenodo.org/records/13293891).
+
 
 
 
@@ -52,22 +45,10 @@ python main.py --config <CONFIG_DIR>
 ```
 
 ## Results
-<div align="center">
-  <img width=800 src="figures/results.png"/>
-</div>
 
 
-## Citation
-If you find our work useful, please cite as follows.
 
-```BibTeX
-@inproceedings{MVPDR,
-      title={Benchmarking In-the-Wild Multimodal Plant Disease Recognition and A Versatile Baseline},
-      author={Wei, Tianqi and Chen, Zhi and Huang, Zi and Yu, Xin},
-      booktitle={ACM International Conference of Multimedia},
-      year={2024}
-}
-```
+
 
 ## Acknowledgments
 
