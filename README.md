@@ -1,8 +1,8 @@
-# PlantSeg: A Large-Scale In-the-wild Dataset for Plant Disease1 Segmentation
+# PlantSeg: A Large-Scale In-the-wild Dataset for Plant Disease Segmentation
 ![Alt text](image/seg_samples.png "PlantSeg-logo")
 
 
-The paper has been submitted to by **Scientific Data**. 
+The paper has been submitted to **Scientific Data**. 
 
 
 ## Introduction
