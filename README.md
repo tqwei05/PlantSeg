@@ -35,7 +35,14 @@ conda install pytorch torchvision cudatoolkit
 ### 3. Prepare the data
 Our dataset is accessible through [Zenodo](https://zenodo.org/records/13293891).
 
+##  Baseline Results <a name="res"></a>
 
+Metrics are computed at the dataset level for the 5 Test sets of VegAnn
+
+Method               | Encoder | IOU | F1 
+---                  | ---  | ---   | ---                  
+Unet       |   ResNet34  | 89.7 ±1.4  |  94.5 ±0.8
+DeepLabV3  |   ResNet34  | 89.5 ±0.2  |  94.5 ±0.2
 
 
 ## Running
@@ -43,6 +50,17 @@ We provide the code for training and evaluation in main.py.
 ```python
 python main.py --config <CONFIG_DIR>
 ```
+
+
+##  Baseline Results
+
+
+
+Method               | Encoder | IOU | F1 
+---                  | ---  | ---   | ---                  
+Unet       |   ResNet34  | 89.7  |  94.5
+DeepLabV3  |   ResNet34  | 89.5  |  94.5
+
 
 ## Results
 
