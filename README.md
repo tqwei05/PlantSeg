@@ -8,7 +8,7 @@ The paper has been submitted to **Scientific Data**.
 ## Abstract
 Plant diseases pose significant threats to agriculture. Proper diagnosis and treatment are crucial for protecting crop yield. Segmentation of plant disease images is an important task, as it helps when accurately locating the diseased parts and providing detailed visual information. Traditionally, segmentation tasks require plant pathologists, but such experts are not always available. As an alternative, deep learning methods can be employed to address this need. However, the development of deep learning-based segmentation algorithms has been obstructed due to the lack of useful data. Segmentation labels are rarely provided in existing datasets. Moreover, most datasets consist of images collected in laboratory environments and do not reflect real-world conditions. Motivated by this fact, we established a large-scale plant disease segmentation dataset named PlantSeg. PlantSeg comprises more than 11,400 images of 115 different plant diseases from various environments, each annotated with its corresponding segmentation label for diseased parts. To the best of our knowledge, PlantSeg is the largest plant disease segmentation dataset containing in-the-wild images. Our dataset enables researchers to evaluate their image classification methods and provides a valid foundation for the development and benchmarking of plant disease segmentation algorithms.
 
-### Curation of our dataset
+## Curation of our dataset
 <div align="center">
   <img width=800 src="image/workflow7.png"/>
 </div>
