@@ -24,24 +24,20 @@ The curation process of the PlantSeg dataset involves three main steps: image ac
 git clone https://github.com/tqwei05/PlantSeg.git
 cd PlantSeg
 ```
-### 2. Requirements
-```bash
-conda create -n mvpdr python=3.8
-conda activate mvpdr
-pip install -r requirements.txt
-# Install the according versions of torch and torchvision
-conda install pytorch torchvision cudatoolkit
-```
-
-### 3. Prepare the data
+### 2. Prepare the data
 Our dataset is accessible through [Zenodo](https://zenodo.org/records/13293891).
+
+
+### 3. Environment setting
+Follow [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/get_started.md#installation) to build the environment.
+
+
 
 
 
 ## Running
-We provide the code for training and evaluation in main.py.
 ```python
-python main.py --config <CONFIG_DIR>
+python tools/train.py  <CONFIG_DIR> --work-dir <WORK_DIR>
 ```
 
 
