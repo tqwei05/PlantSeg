@@ -29,7 +29,7 @@ Our dataset is accessible through [Zenodo](https://zenodo.org/records/13293891).
 
 
 ### 3. Environment setting
-Follow [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/get_started.md#installation) to build the environment.
+Follow [MMSegmentation](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/get_started.md#installation) to build the environment.
 
 
 
@@ -47,8 +47,14 @@ python tools/train.py  <CONFIG_DIR> --work-dir <WORK_DIR>
 
 Method               | Encoder | IOU | F1 
 ---                  | ---  | ---   | ---                  
-Unet       |   ResNet34  | 89.7  |  94.5
-DeepLabV3  |   ResNet34  | 89.5  |  94.5
+DeepLabV3  |   ResNet50  |   |  
+DeepLabV3  |   ResNet101  |   |  
+DeepLabV3+  |   ResNet50  |   |  
+DeepLabV3+  |   ResNet101  |   |  
+SAN  |   ViT-B/16  |   |  
+SAN  |   ViT-L/14  |   |  
+Segformer |     |   |  
+SegNext   |     |   |  
 
 
 ## Results
@@ -59,6 +65,6 @@ DeepLabV3  |   ResNet34  | 89.5  |  94.5
 
 ## Acknowledgments
 
-Our code benefits from [Tip-Adapter](https://github.com/gaopengcuhk/Tip-Adapter). We appreciate their wonderful works.
+Our code is based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentation). We appreciate their wonderful work.
 
 
