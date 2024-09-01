@@ -47,14 +47,13 @@ python tools/train.py  <CONFIG_DIR> --work-dir <WORK_DIR>
 
 Method               | Encoder | IOU | F1 
 ---                  | ---  | ---   | ---                  
-DeepLabV3  |   ResNet50  |   |  
-DeepLabV3  |   ResNet101  |   |  
-DeepLabV3+  |   ResNet50  |   |  
-DeepLabV3+  |   ResNet101  |   |  
-SAN  |   ViT-B/16  |   |  
-SAN  |   ViT-L/14  |   |  
-Segformer |     |   |  
-SegNext   |     |   |  
+DeepLabV3  |   ResNet50  | 17.24 | 37.95 
+DeepLabV3  |   ResNet101  | 20.72 | 40.63 
+DeepLabV3+  |   ResNet50  | 25.08  |  40.66
+DeepLabV3+  |   ResNet101  | 27.18  | 42.29 
+SAN  |   ViT-B/16  |  34.79 |  50.19
+SAN  |   ViT-L/14  |  36.91 | 52.81  
+SegNext   |   44.52  |  59.95 |  
 
 
 
