@@ -53,7 +53,7 @@ DeepLabV3+  |   ResNet50  | 25.08  |  40.66
 DeepLabV3+  |   ResNet101  | 27.18  | 42.29 
 SAN  |   ViT-B/16  |  34.79 |  50.19
 SAN  |   ViT-L/14  |  36.91 | 52.81  
-SegNext   |   44.52  |  59.95 |  
+SegNext   | MSCAN-L |  44.52  |  59.95 |  
 
 
 
