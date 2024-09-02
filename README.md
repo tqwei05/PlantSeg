@@ -2,7 +2,7 @@
 ![Alt text](image/seg_samples.png "PlantSeg-logo")
 
 
-The paper has been submitted to **Scientific Data**. 
+
 
 
 ## Introduction
