@@ -37,8 +37,9 @@ Follow [MMSegmentation](https://github.com/open-mmlab/mmsegmentation/blob/main/d
 
 ## Running
 ```python
-python tools/train.py  <CONFIG_DIR> --work-dir <WORK_DIR>
+sh run.sh
 ```
+
 
 
 ##  Baseline Results
