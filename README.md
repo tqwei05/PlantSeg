@@ -25,7 +25,7 @@ git clone https://github.com/tqwei05/PlantSeg.git
 cd PlantSeg
 ```
 ### 2. Prepare the data
-PlantSeg is accessible through [Zenodo](https://zenodo.org/records/13293891). After downloading, put PlantSeg under the "data" folder.
+PlantSeg will accessible soon through [Zenodo](https://zenodo.org/records/13293891). After downloading, put PlantSeg under the "data" folder.
 
 
 ### 3. Environment setting
