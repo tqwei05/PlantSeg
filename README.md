@@ -1,4 +1,4 @@
-# PlantSeg: A Large-Scale In-the-wild Dataset for Plant Disease Segmentation
+# [PlantSeg: A Large-Scale In-the-wild Dataset for Plant Disease Segmentation](https://arxiv.org/abs/2409.04038)
 ![Alt text](image/seg_samples.png "PlantSeg-logo")
 
 
@@ -25,7 +25,7 @@ git clone https://github.com/tqwei05/PlantSeg.git
 cd PlantSeg
 ```
 ### 2. Prepare the data
-PlantSeg is accessible soon through [Zenodo](https://zenodo.org/records/13762907). After downloading, put PlantSeg under the "data" folder.
+PlantSeg is accessible through [Zenodo](https://zenodo.org/records/13762907). After downloading, put PlantSeg under the "data" folder.
 
 
 ### 3. Environment setting
