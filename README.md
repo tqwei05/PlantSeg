@@ -6,7 +6,7 @@
 
 
 ## Introduction
-We established a large-scale plant disease segmentation dataset named PlantSeg. PlantSeg comprises more than 11,400 images of 115 different plant diseases from various environments, each annotated with its corresponding segmentation label for diseased parts. To the best of our knowledge, PlantSeg is the largest plant disease segmentation dataset containing in-the-wild images. Our dataset enables researchers to evaluate their image classification methods and provides a valid foundation for the development and benchmarking of plant disease segmentation algorithms.
+We established a large-scale plant disease segmentation dataset named PlantSeg. PlantSeg comprises more than 11,400 images of 115 different plant diseases from various environments, each annotated with its corresponding segmentation label for diseased parts. To the best of our knowledge, PlantSeg is the largest plant disease segmentation dataset containing in-the-wild images. Our dataset enables researchers to evaluate their models and provides a valid foundation for the development and benchmarking of plant disease segmentation algorithms.
 
 ## Curation of our dataset
 The curation process of the PlantSeg dataset involves three main steps: image acquisition, data cleaning, and annotation. In the image acquisition stage, images were collected from various internet sources using identified keywords and then stored according to their categories. During the data cleaning phase, incorrect images were identified and removed. For the segmentation annotation process, annotators utilized LabelMe to annotate the cleaned images. These annotations were subsequently reviewed by experts and saved in JSON files.
@@ -25,7 +25,7 @@ git clone https://github.com/tqwei05/PlantSeg.git
 cd PlantSeg
 ```
 ### 2. Prepare the data
-PlantSeg will be accessible soon through [Zenodo](https://zenodo.org/records/13762907). After downloading, put PlantSeg under the "data" folder.
+PlantSeg is accessible soon through [Zenodo](https://zenodo.org/records/13762907). After downloading, put PlantSeg under the "data" folder.
 
 
 ### 3. Environment setting
