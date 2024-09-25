@@ -1,4 +1,4 @@
-# [PlantSeg: A Large-Scale In-the-wild Dataset for Plant Disease Segmentation](https://arxiv.org/abs/2409.04038)
+# PlantSeg: A Large-Scale In-the-wild Dataset for Plant Disease Segmentation
 ![Alt text](image/seg_samples.png "PlantSeg-logo")
 
 
@@ -57,7 +57,17 @@ SAN  |   ViT-L/14  |  36.91 | 52.81
 SegNext   | MSCAN-L |  44.52  |  59.95 |  
 
 
+## Citation
+If you find our work useful, please cite as follows.
 
+```BibTeX
+@article{wei2024plantseg,
+  title={PlantSeg: A Large-Scale In-the-wild Dataset for Plant Disease Segmentation},
+  author={Wei, Tianqi and Chen, Zhi and Yu, Xin and Chapman, Scott and Melloy, Paul and Huang, Zi},
+  journal={arXiv preprint arXiv:2409.04038},
+  year={2024}
+}
+```
 
 
 
