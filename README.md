@@ -56,6 +56,8 @@ SAN  |   ViT-B/16  |  34.79 |  50.19
 SAN  |   ViT-L/14  |  36.91 | 52.81  
 SegNext   | MSCAN-L |  44.52  |  59.95 |  
 
+## Paper
+[PlantSeg: A Large-Scale In-the-wild Dataset for Plant Disease Segmentation](https://arxiv.org/abs/2409.04038)
 
 ## Citation
 If you find our work useful, please cite as follows.
