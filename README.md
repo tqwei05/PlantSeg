@@ -46,7 +46,7 @@ sh run.sh
 
 
 
-Method               | Encoder | mIoU | MACC 
+Method               | Encoder | mIoU | mAcc 
 ---                  | ---  | ---   | ---                  
 DeepLabV3  |   ResNet50  | 17.24 | 37.95 
 DeepLabV3  |   ResNet101  | 20.72 | 40.63 
