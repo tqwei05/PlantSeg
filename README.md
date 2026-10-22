@@ -3,7 +3,7 @@
 
 
 
-The paper has been accepted by **Scientific Data**.
+The paper has been accepted for publication in **Scientific Data**.
 
 ## Introduction
 We established a large-scale plant disease segmentation dataset named PlantSeg. PlantSeg comprises more than 7,774 images of plant diseases from various environments, each annotated with its corresponding segmentation label for diseased parts. To the best of our knowledge, PlantSeg is the largest plant disease segmentation dataset containing in-the-wild images. Our dataset enables researchers to evaluate their models and provides a valid foundation for the development and benchmarking of plant disease segmentation algorithms.
@@ -11,7 +11,7 @@ We established a large-scale plant disease segmentation dataset named PlantSeg. 
 ## Curation of our dataset
 The curation process of the PlantSeg dataset involves three main steps: image acquisition, data cleaning, and annotation. In the image acquisition stage, images were collected from various internet sources using identified keywords and then stored according to their categories. During the data cleaning phase, incorrect images were identified and removed. For the segmentation annotation process, annotators utilized LabelMe to annotate the cleaned images. These annotations were subsequently reviewed by experts and saved in JSON files.
 <div align="center">
-  <img width=800 src="image/workflow7.png"/>
+  <img width=800 src="image/plantseg.png"/>
 </div>
 
 
