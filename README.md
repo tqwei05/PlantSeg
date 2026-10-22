@@ -46,15 +46,31 @@ sh run.sh
 
 
 
-Method               | Encoder | mIoU | mAcc 
----                  | ---  | ---   | ---                  
-DeepLabV3  |   ResNet50  | 17.24 | 37.95 
-DeepLabV3  |   ResNet101  | 20.72 | 40.63 
-DeepLabV3+  |   ResNet50  | 25.08  |  40.66
-DeepLabV3+  |   ResNet101  | 27.18  | 42.29 
-SAN  |   ViT-B/16  |  34.79 |  50.19
-SAN  |   ViT-L/14  |  36.91 | 52.81  
-SegNext   | MSCAN-L |  44.52  |  59.95 |  
+Method | Backbone | Parameters ↓ | mIoU(%) ↑ | mAcc(%) ↑
+--- | --- | --- | --- | ---
+**CNN-based Methods** | | | |
+MobileNetV3 | — | 5M | 10.22 | 17.15
+DeepLabv3 | ResNet-50 | 42M | 17.24 | 37.95
+DeepLabv3 | ResNet-101 | 61M | 20.72 | 40.63
+PSPNet | ResNet-50 | 47M | 21.44 | 36.28
+PSPNet | ResNet-101 | 66M | 22.81 | 39.00
+DeepLabv3+ | ResNet-50 | 44M | 25.08 | 40.66
+DeepLabv3+ | ResNet-101 | 63M | 27.18 | 42.29
+CCNet | ResNet-50 | 48M | 27.12 | 36.62
+CCNet | ResNet-101 | 67M | 30.15 | 39.98
+**Transformer-based Methods** | | | |
+SegFormer | MiT-B5 | 85M | 26.28 | 39.57
+BEiT | BEiT-B | 86M | 24.77 | 38.83
+BEiT | BEiT-L | 307M | 27.60 | 43.49
+SAN | ViT-B/16 | 158M | 34.79 | 50.19
+SAN | ViT-L/14 | 437M | 36.91 | 52.81
+UPerNet | Swin-B | 120M | 38.67 | 53.44
+UPerNet | Swin-L | 232M | 42.36 | 56.67
+**Hybrid Methods** | | | |
+SegNeXt | MSCAN-B | 28M | 42.05 | 56.30
+SegNeXt | MSCAN-L | 49M | 44.52 | 59.95
+ConvNeXt | ConvNeXt-B | 89M | 40.69 | 52.72
+ConvNeXt | ConvNeXt-L | 121M | **46.24** | **59.97**
 
 ## Paper
 [PlantSeg: A Large-Scale In-the-wild Dataset for Plant Disease Segmentation](https://www.nature.com/articles/s41597-025-06513-4)
