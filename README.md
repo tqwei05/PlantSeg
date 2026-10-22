@@ -3,10 +3,10 @@
 
 
 
-
+The paper has been accepted by **Scientific Data**.
 
 ## Introduction
-We established a large-scale plant disease segmentation dataset named PlantSeg. PlantSeg comprises more than 11,400 images of 115 different plant diseases from various environments, each annotated with its corresponding segmentation label for diseased parts. To the best of our knowledge, PlantSeg is the largest plant disease segmentation dataset containing in-the-wild images. Our dataset enables researchers to evaluate their models and provides a valid foundation for the development and benchmarking of plant disease segmentation algorithms.
+We established a large-scale plant disease segmentation dataset named PlantSeg. PlantSeg comprises more than 7,774 images of plant diseases from various environments, each annotated with its corresponding segmentation label for diseased parts. To the best of our knowledge, PlantSeg is the largest plant disease segmentation dataset containing in-the-wild images. Our dataset enables researchers to evaluate their models and provides a valid foundation for the development and benchmarking of plant disease segmentation algorithms.
 
 ## Curation of our dataset
 The curation process of the PlantSeg dataset involves three main steps: image acquisition, data cleaning, and annotation. In the image acquisition stage, images were collected from various internet sources using identified keywords and then stored according to their categories. During the data cleaning phase, incorrect images were identified and removed. For the segmentation annotation process, annotators utilized LabelMe to annotate the cleaned images. These annotations were subsequently reviewed by experts and saved in JSON files.
@@ -25,7 +25,7 @@ git clone https://github.com/tqwei05/PlantSeg.git
 cd PlantSeg
 ```
 ### 2. Prepare the data
-PlantSeg is accessible through [Zenodo](https://zenodo.org/records/14935094). After downloading, put PlantSeg under the "data" folder.
+PlantSeg is accessible through [Zenodo](https://doi.org/10.5281/zenodo.17719108). After downloading, put PlantSeg under the "data" folder.
 
 
 ### 3. Environment setting
@@ -57,17 +57,21 @@ SAN  |   ViT-L/14  |  36.91 | 52.81
 SegNext   | MSCAN-L |  44.52  |  59.95 |  
 
 ## Paper
-[PlantSeg: A Large-Scale In-the-wild Dataset for Plant Disease Segmentation](https://arxiv.org/abs/2409.04038)
+[PlantSeg: A Large-Scale In-the-wild Dataset for Plant Disease Segmentation](https://www.nature.com/articles/s41597-025-06513-4)
 
 ## Citation
 If you find our work useful, please cite as follows.
 
 ```BibTeX
-@article{wei2024plantseg,
-  title={PlantSeg: A Large-Scale In-the-wild Dataset for Plant Disease Segmentation},
+@article{wei2026plantseg,
+  title={A large-scale in-the-wild dataset for plant disease segmentation},
   author={Wei, Tianqi and Chen, Zhi and Yu, Xin and Chapman, Scott and Melloy, Paul and Huang, Zi},
-  journal={arXiv preprint arXiv:2409.04038},
-  year={2024}
+  journal={Scientific Data},
+  volume={13},
+  number={1},
+  pages={205},
+  year={2026},
+  publisher={Nature Publishing Group UK, London}
 }
 ```
 
